@@ -39,6 +39,8 @@ public class HelloServlet extends HttpServlet {
 				out.println("    <h1>サーブレット</h1>                       ");
 				out.println("    <h2>最初の表示</h2>                         ");
 				out.println("    <p>Hello Servlet !</p>                      ");
+				out.println("    <p>http://localhost:8080/Javaweb01/hellosへアクセス</p>                      ");
+				out.println("    <p>サーブレット作成時にURLを変更できる</p>                      ");
 				out.println("</body>                                         ");
 				out.println("</html>     ");
 	}
